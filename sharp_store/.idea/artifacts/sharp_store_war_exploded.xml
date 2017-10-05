@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="sharp_store:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/sharp_store_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="sharp_store/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sharp_store" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.modelmapper:modelmapper:1.1.0" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../Introduction-To-MVC-Lab/mvc_framework_lab/out/artifacts/mvc_framework_lab_jar/mvc_framework_lab.jar" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:3.0.1" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: org.simplejavamail:simple-java-mail:4.4.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
